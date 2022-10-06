@@ -1,0 +1,11 @@
+number = int(input("enter a value"))
+result = 0
+temporary = number
+while temporary > 0:
+    digit = temporary % 10
+    result += digit ** 3
+    temporary //= 10
+if number == result:
+   print(number," an Armstrong number")
+else:
+   print(number," not an armstrong number")
