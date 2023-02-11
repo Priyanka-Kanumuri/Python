@@ -7,3 +7,16 @@ if(count == 2):
    print(num,"is prime")
 else:
    print(num,"is not prime")
+   
+   Explanation:
+   This code checks whether a given number "num" is prime or not.
+
+It does this by counting the number of factors that "num" has, starting from 1 up to "num" itself.
+If "num" has exactly two factors, namely 1 and itself, then it is a prime number, and the code prints the message "num is prime". 
+Otherwise, if "num" has more than two factors or less than two factors (i.e., 1 or 0), then it is not a prime number, and the code prints the message "num is not prime".
+
+
+
+
+   
+   
