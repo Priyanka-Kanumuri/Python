@@ -10,4 +10,31 @@ if(flag==1):
    print("palindrome")
 else:
    print("not palindrome")
+   
+   Explanation:
+   
+This is a Python program that checks whether a given input string is a palindrome or not.
+Here's an explanation of how the program works:
+
+The first line of the program prompts the user to enter a string and uses the eval() function to evaluate the input as a Python expression.
+This is unnecessary for the purpose of this program, as it is sufficient to use the input() function directly to get a string input.
+
+The variable flag is initialized to 1, which will be used to keep track of whether the string is a palindrome or not.
+
+The program loops over the first half of the string using a for loop and the range() function. 
+For each character a[i], it checks if it is equal to the corresponding character from the end of the string, which is a[len(a)-1-i].
+
+If the characters are equal, the loop continues to the next iteration using the continue statement.
+
+If the characters are not equal, the flag variable is set to 0 and the loop is broken using the break statement.
+
+After the loop, the program checks the value of the flag variable. If it is still 1, the string is a palindrome and the program prints "palindrome". 
+Otherwise, the program prints "not palindrome".
+
+In summary, this program checks if the input string is a palindrome by comparing its first half to its second half, character by character, using a for loop. 
+If any of the characters don't match, the program sets the flag variable to 0 and stops the loop. 
+If all the characters match, the program sets the flag variable to 1 and continues to the end, where it prints the result based on the value of the flag variable.
+
+
+
     
