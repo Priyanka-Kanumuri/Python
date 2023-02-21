@@ -4,3 +4,11 @@ for i in range(1, a+1):
     b = b*i
 print(b)
 
+Explanation:
+
+The code takes an input 'a' which is an integer. Then it initializes a variable 'b' to 1.
+Next, a 'for' loop is used to iterate through a range of numbers from 1 to 'a+1'.
+Within each iteration, the current value of 'i' is multiplied with the current value of 'b', and the result is stored back into 'b'.
+Finally, after the loop ends, the value of 'b' is printed which is the factorial of the input integer 'a'.
+The factorial of a number is the product of all the positive integers up to that number. For example, the factorial of 5 is 54321 = 120.
+
